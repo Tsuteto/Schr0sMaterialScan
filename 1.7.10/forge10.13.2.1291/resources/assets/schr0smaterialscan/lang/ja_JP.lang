@@ -1,0 +1,77 @@
+//-----------ITEM-----------//
+item.contradictionMass.name=矛盾の塊
+item.truthCrystal.name=真理の結晶
+item.materialScanner.name=物質走査器
+item.materialCard.empty.name=空の物質密封紙
+item.materialCard.full.name=中身入りの物質密封紙
+item.materialBook.name=物質解析書
+
+// ItemContradictionMass
+item.contradictionMass.manual=「ありえない」なんて事はありえない。
+
+// ItemTruthCrystal
+item.truthCrystal.manual=「一は全、全は一」
+
+// ItemMaterialScanner
+item.materialScanner.use=生き物に対して右クリックで使用する。
+item.materialScanner.manual=生物を走査することが出来る。
+item.materialScanner.scanInfo=その生物は走査中 ... [ %1$s ]
+item.materialScanner.scanCompletion=その生物の走査が完了 !!!
+
+// ItemMaterialCard
+item.materialCard.use.empty=右クリックで使用する。
+item.materialCard.use.full=スニーキング + 右クリックで使用する。
+item.materialCard.manual.empty=生物を捕まえることが出来る。
+item.materialCard.manual.full=生物を開放することが出来る。
+item.materialCard.mobName=生物の真名
+item.materialCard.mobNickname=生物の渾名
+item.materialCard.entityNoName=名無し
+
+// ItemMaterialBook
+item.materialBook.use=右クリックで使用する。
+item.materialBook.manual=[ 中身入りの物質密封紙 ]の中身を見ることが出来る。
+
+//-----------CREATIVE TABS-----------//
+itemGroup.Schr0sMaterialScan.item=『物質走査』関連アイテム
+
+//-----------DAMAGE SOURCE-----------//
+death.attack.Schr0sMaterialScan.decay=%1$s は 朽ちてしまった
+
+//-----------ENTITY-----------//
+entity.materialCard.name=物質密封紙
+
+// EntityMobCard
+entity.materialCard.captureFailed=捕獲に失敗 ... [ %1$s ]
+entity.materialCard.captureSuccess=捕獲に成功 !!! [ %1$s ]
+
+//-----------GUI-----------//
+gui.status=ステータス
+gui.status.name=名称
+gui.status.type=種類
+gui.status.size=体格
+gui.status.age=年齢
+gui.status.health=状態
+
+// type
+gui.status.type.boss=ボス
+gui.status.type.npc=NPC
+gui.status.type.mob=モンスター
+gui.status.type.animal=動物
+
+// age
+gui.status.age.child=幼体
+gui.status.age.adult=成体
+
+// size
+gui.status.size.small=小柄
+gui.status.size.medium=標準
+gui.status.size.large=巨大
+
+// health
+gui.status.health.healthy=健康
+gui.status.health.injury=軽傷
+gui.status.health.seriousInjury=重傷
+gui.status.health.dying=瀕死
+
+// unknown
+gui.status.unknown=不明

@@ -1,0 +1,11 @@
+{
+
+	"page_open":{
+		"category":"master",
+		"sounds":[{
+				"name":"schr0smaterialscan:items/page_open",
+				"stream": false
+			}]
+		}
+
+}

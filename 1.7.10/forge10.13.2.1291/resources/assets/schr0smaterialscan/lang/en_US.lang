@@ -1,0 +1,77 @@
+//-----------ITEM-----------//
+item.contradictionMass.name=Contradiction Mass
+item.truthCrystal.name=Truth Crystal
+item.materialScanner.name=Material Scanner
+item.materialCard.empty.name=Empty Material Card
+item.materialCard.full.name=Full Material Card
+item.materialBook.name=Material Book
+
+// ItemContradictionMass
+item.contradictionMass.manual=Nothing is impossible.
+
+// ItemTruthCrystal
+item.truthCrystal.manual=One is all, all is one.
+
+// ItemMaterialScanner
+item.materialScanner.use=Use Right click to Mob.
+item.materialScanner.manual=Can scan the mob.
+item.materialScanner.scanInfo=The mob is being scan ... [ %1$s ]
+item.materialScanner.scanCompletion=The mob is scan completion !!!
+
+// ItemMaterialCard
+item.materialCard.use.empty=Use Right click.
+item.materialCard.use.full=Use Sneaking + Right click.
+item.materialCard.manual.empty=Can capture the mob.
+item.materialCard.manual.full=Can release the mob.
+item.materialCard.entityName=Mob Name
+item.materialCard.entityNickname=Mob Nickname
+item.materialCard.entityNoName=No Name
+
+// ItemMaterialBook
+item.materialBook.use=Use Right click.
+item.materialBook.manual=Can see [ Full Material Card ] content.
+
+//-----------CREATIVE TABS-----------//
+itemGroup.Schr0sMaterialScan.item=[ Material Scan ] Item
+
+//-----------DAMAGE SOURCE-----------//
+death.attack.Schr0sMaterialScan.decay=%1$s is decayed
+
+//-----------ENTITY-----------//
+entity.materialCard.name=Material Card
+
+// EntityMobCard
+entity.materialCard.captureFailed=Failed to capture ... [ %1$s ]
+entity.materialCard.captureSuccess=Success to capture !!! [ %1$s ]
+
+//-----------GUI-----------//
+gui.status=Status
+gui.status.name=Name
+gui.status.type=Type
+gui.status.size=Size
+gui.status.age=Age
+gui.status.health=Health
+
+// type
+gui.status.type.boss=Boss
+gui.status.type.npc=NPC
+gui.status.type.mob=Monster
+gui.status.type.animal=Animal
+
+// age
+gui.status.age.child=Child
+gui.status.age.adult=Adult
+
+// size
+gui.status.size.small=Small
+gui.status.size.medium=Medium
+gui.status.size.large=Large
+
+// health
+gui.status.health.healthy=Healthy
+gui.status.health.injury=Injury
+gui.status.health.seriousInjury=Serious Injury
+gui.status.health.dying=Dying
+
+// unknown
+gui.status.unknown=Unknown
