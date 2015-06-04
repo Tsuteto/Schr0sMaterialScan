@@ -13,23 +13,23 @@ item.contradictionMass.manual=Nothing is impossible.
 item.truthCrystal.manual=One is all, all is one.
 
 // ItemMaterialScanner
-item.materialScanner.use=Use Right click to Mob.
-item.materialScanner.manual=Can scan the mob.
-item.materialScanner.scanInfo=The mob is being scan ... [ %1$s ]
-item.materialScanner.scanCompletion=The mob is scan completion !!!
+item.materialScanner.use=Used on a mob with Right click
+item.materialScanner.manual=To scan the mob.
+item.materialScanner.scanInfo=Scanning the mob [ %1$s ]...
+item.materialScanner.scanCompletion=Completed scanning the mob!!!
 
 // ItemMaterialCard
-item.materialCard.use.empty=Use Right click.
-item.materialCard.use.full=Use Sneaking + Right click.
-item.materialCard.manual.empty=Can capture the mob.
-item.materialCard.manual.full=Can release the mob.
+item.materialCard.use.empty=Used with Right click
+item.materialCard.use.full=Used with Sneaking + Right click
+item.materialCard.manual.empty=To capture the mob.
+item.materialCard.manual.full=To release the mob.
 item.materialCard.entityName=Mob Name
 item.materialCard.entityNickname=Mob Nickname
-item.materialCard.entityNoName=No Name
+item.materialCard.entityNoName=Unnamed
 
 // ItemMaterialBook
-item.materialBook.use=Use Right click.
-item.materialBook.manual=Can see [ Full Material Card ] content.
+item.materialBook.use=Used with Right click
+item.materialBook.manual=To see the contents of [ Full Material Card ].
 
 //-----------CREATIVE TABS-----------//
 itemGroup.Schr0sMaterialScan.item=[ Material Scan ] Item
@@ -41,8 +41,8 @@ death.attack.Schr0sMaterialScan.decay=%1$s is decayed
 entity.materialCard.name=Material Card
 
 // EntityMobCard
-entity.materialCard.captureFailed=Failed to capture ... [ %1$s ]
-entity.materialCard.captureSuccess=Success to capture !!! [ %1$s ]
+entity.materialCard.captureFailed=Failed to capture [ %1$s ]
+entity.materialCard.captureSuccess=Success! [ %1$s ] was caught!!!
 
 //-----------GUI-----------//
 gui.status=Status
@@ -69,8 +69,8 @@ gui.status.size.large=Large
 
 // health
 gui.status.health.healthy=Healthy
-gui.status.health.injury=Injury
-gui.status.health.seriousInjury=Serious Injury
+gui.status.health.injury=Injured
+gui.status.health.seriousInjury=Seriously Injured
 gui.status.health.dying=Dying
 
 // unknown
