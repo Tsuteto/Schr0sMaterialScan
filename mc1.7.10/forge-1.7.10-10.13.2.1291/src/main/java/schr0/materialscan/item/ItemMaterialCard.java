@@ -305,6 +305,8 @@ public class ItemMaterialCard extends Item
 		{
 			livingBase.setPositionAndUpdate(pX, pY, pZ);
 
+			livingBase.motionY = livingBase.motionX = livingBase.motionZ = 0;
+
 			world.spawnEntityInWorld(livingBase);
 		}
 
