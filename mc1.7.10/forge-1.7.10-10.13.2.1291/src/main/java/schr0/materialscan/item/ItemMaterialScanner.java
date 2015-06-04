@@ -193,7 +193,7 @@ public class ItemMaterialScanner extends Item
 		IChatComponent countText = new ChatComponentText(count + " / " + maxCount);
 		countText.getChatStyle().setColor(EnumChatFormatting.GREEN);
 
-		IChatComponent text = new ChatComponentTranslation("item.materialScanner.scanInfo", new Object[] { countText });
+		IChatComponent text = new ChatComponentTranslation("item.materialScanner.scanInfo", new Object[]{countText});
 		text.getChatStyle().setColor(EnumChatFormatting.RED);
 
 		if (LibScan.isCompleteScan(target))

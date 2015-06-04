@@ -100,22 +100,22 @@ public class EntityMaterialCard extends EntityThrowable
 
 			switch (movingObjectPosition.sideHit)
 			{
-				case 0:
+				case 0 :
 					--hitY;
 					break;
-				case 1:
+				case 1 :
 					++hitY;
 					break;
-				case 2:
+				case 2 :
 					--hitZ;
 					break;
-				case 3:
+				case 3 :
 					++hitZ;
 					break;
-				case 4:
+				case 4 :
 					--hitX;
 					break;
-				case 5:
+				case 5 :
 					++hitX;
 			}
 		}
@@ -275,16 +275,14 @@ public class EntityMaterialCard extends EntityThrowable
 		IChatComponent targetName = LibName.getTrueName(target);
 		targetName.getChatStyle().setColor(EnumChatFormatting.GREEN);
 
-		IChatComponent text = new ChatComponentTranslation("entity.materialCard.captureFailed", new Object[]
-		{ targetName });
+		IChatComponent text = new ChatComponentTranslation("entity.materialCard.captureFailed", new Object[]{targetName});
 		text.getChatStyle().setColor(EnumChatFormatting.RED);
 
 		String sound = "random.fizz";
 
 		if (canCapture)
 		{
-			text = new ChatComponentTranslation("entity.materialCard.captureSuccess", new Object[]
-			{ targetName });
+			text = new ChatComponentTranslation("entity.materialCard.captureSuccess", new Object[]{targetName});
 			text.getChatStyle().setColor(EnumChatFormatting.GOLD);
 
 			sound = "random.levelup";

@@ -47,7 +47,8 @@ public class LibMouseOver
 				Vec3 vec33 = null;
 				float f1 = 1.0F;
 				@SuppressWarnings("unchecked")
-				List<Entity> list = viewingEntity.worldObj.getEntitiesWithinAABBExcludingEntity(viewingEntity, viewingEntity.boundingBox.addCoord(lookVector.xCoord * reach, lookVector.yCoord * reach, lookVector.zCoord * reach).expand(f1, f1, f1));
+				List<Entity> list = viewingEntity.worldObj.getEntitiesWithinAABBExcludingEntity(viewingEntity,
+						viewingEntity.boundingBox.addCoord(lookVector.xCoord * reach, lookVector.yCoord * reach, lookVector.zCoord * reach).expand(f1, f1, f1));
 				double d2 = d1;
 				Entity pointedEntity = null;
 

@@ -15,7 +15,7 @@ public class MaterialScanParticle
 	private IIcon iicons[];
 
 	// IIcon名の配列
-	private static final String[] IICON_NAMES = { MaterialScanResource.DOMAIN + "particle_scaned_0", MaterialScanResource.DOMAIN + "particle_scaned_1", };
+	private static final String[] IICON_NAMES = {MaterialScanResource.DOMAIN + "particle_scaned_0", MaterialScanResource.DOMAIN + "particle_scaned_1",};
 
 	// Instance
 	private static MaterialScanParticle instance;

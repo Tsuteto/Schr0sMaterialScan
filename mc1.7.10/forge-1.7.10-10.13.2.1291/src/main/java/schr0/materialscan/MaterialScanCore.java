@@ -21,7 +21,7 @@ public class MaterialScanCore
 	// modのID & modの名称 & modのVer & modの依存関係
 	public static final String MODID = "Schr0sMaterialScan";
 	public static final String NAME = "Schr0's Material Scan";
-	public static final String VERSION = "ver0.1-mc1.7.10";
+	public static final String VERSION = "ver0.2-mc1.7.10";
 	public static final String DEPENDENCIES = "required-after:Forge@[10.13.2.1291,)";
 
 	// modのInstance
@@ -45,7 +45,6 @@ public class MaterialScanCore
 		// 前・modの初期設定(クライアント側)
 		this.proxy.clientPreInit(event);
 	}
-
 	// modの初期設定
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)

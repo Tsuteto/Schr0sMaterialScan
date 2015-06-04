@@ -3,18 +3,14 @@
 		"modid": "Schr0sMaterialScan",
 		"name": "Schr0s Material Scan",
 		"description": "Take It Easy !!!",
-		"version": "ver0.1-mc1.7.10",
+		"version": "ver0.2-mc1.7.10",
 		"mcversion": "1.7.10",
 		"url": "",
 		"updateUrl": "",
-		"authorList": [ "Schr0" ],
+		"authorList": ["Schr0"],
 		"credits": "",
 		"logoFile": "logo.png",
 		"screenshots": [],
-		"parent": "",
-		"requiredMods": [],
-		"dependencies": [],
-		"dependants": [],
-		"useDependencyInformation": true
+		"dependencies": []
 	}
 ]

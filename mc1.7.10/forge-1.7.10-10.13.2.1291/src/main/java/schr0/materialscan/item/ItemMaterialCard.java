@@ -40,10 +40,10 @@ public class ItemMaterialCard extends Item
 	private IIcon[] iiconList;
 
 	// 内部名の配列
-	private static final String[] NAMES = new String[] { "empty", "full", };
+	private static final String[] NAMES = new String[]{"empty", "full",};
 
 	// テクスチャ名の配列
-	private static final String[] TEXTURES = new String[] { "material_card_empty", "material_card_full", };
+	private static final String[] TEXTURES = new String[]{"material_card_empty", "material_card_full",};
 
 	// --- NBTのtag & ID --- //
 	// ENTITY_LISTTAG : 10(NBTTagCompound), 9(NBTTagCompound)
