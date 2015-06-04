@@ -238,7 +238,25 @@ public class ContainerMaterialBook extends Container
 
 				if (itemCard.hasContent(stackCard))
 				{
-					ContainerMaterialBook.this.setCardEntity(world, itemCard.getContentEntity(stackCard, world));
+					EntityLivingBase entity = null;
+					boolean tmp = world.isRemote;
+
+					try
+					{
+						world.isRemote = false;
+						entity = itemCard.getContentEntity(stackCard, world);
+					}
+					catch (Throwable e)
+					{
+						world.isRemote = tmp;
+						entity = itemCard.getContentEntity(stackCard, world);
+					}
+					finally
+					{
+						world.isRemote = tmp;
+					}
+
+					ContainerMaterialBook.this.setCardEntity(world, entity);
 				}
 			}
 			else
